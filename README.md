@@ -4,7 +4,7 @@ A simple website designed to receive and keep track of orders made on the site i
 ## Features  
 - Input and save payment information  
 - View order list in admin 
-- Simple design to minimize user confusion  
+- Simple & intuitive design to minimize user confusion  
 
 ## Requirements
 -Text Editor (VS Code)
