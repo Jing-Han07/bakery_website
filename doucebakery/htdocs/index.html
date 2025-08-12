@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Douce History</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <header>
+        <h1>Douce History</h1>
+        <nav>
+        </nav>
+    </header>
+    <footer>
+        <p>&copy; 2025DouceBakers </p >
+    </footer>
+</body>
+</html>
+</head>
+<body>
+    <h1>Menu</h1>
+  </nav>
+<div class="slider">
+        <div class="sliderWrapper">
+            <div class="sliderItem">
+                <img src="./img/Product/mango.png" alt="" class="sliderImg">
+                <div class="sliderBg"></div>
+                <h1 class="sliderTitle">MANGO</br>
+                <h2 class="sliderPrice">RM29</h2>
+                <a href="#product">
+                    <button id="bookBtn">BOOK NOW!</button>
+                </a>
+            </div>
+            <div class="sliderItem">
+                <img src="./img/Product/tiramisu.png" alt="" class="sliderImg">
+                <div class="sliderBg"></div>
+                <h1 class="sliderTitle">TIRAMISU</br>
+                <h2 class="sliderPrice">RM49</h2>
+                <a href="#product">
+                    <button id="bookBtn">BOOK NOW!</button>
+                </a>
+            </div>
+            <div class="sliderItem">
+                <img src="./img/Product/cheese.png" alt="" class="sliderImg">
+                <div class="sliderBg"></div>
+                <h1 class="sliderTitle">CHEESE</br>
+                <h2 class="sliderPrice">RM29</h2>
+                <a href="#product">
+                    <button id="bookBtn">BOOK NOW!</button>
+                </a>
+            </div>
+            <div class="sliderItem">
+                <img src="./img/Product/macha.png" alt="" class="sliderImg">
+                <div class="sliderBg"></div>
+                <h1 class="sliderTitle">MACHA</br>
+                <h2 class="sliderPrice">RM39</h2>
+                <a href="#product">
+                     <button id="bookBtn">BOOK NOW!</button>
+                </a>
+            </div>
+        </div>
+    </div>
+        </div>
+         <section>
+
+        <h2>Contact Us</h2>
+        <p>Email: info@doucehistory.com</p >
+        <p>Phone: 012-3456789</p >
+        <p>Address: 123 Cake Street, Penang, Malaysia</p >
+        </section>
+
+        <div id="paymentModal" class="modal">
+        <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>Payment</h2>
+            <div class="payment">
+                <h1 class="payTitle">Personal Information</h1>
+                <form action="data.php" method="POST">
+                    <label>Name and Surname</label>
+                    <input type="text" name="name" placeholder="Your name" class="payInput">
+                    <br>
+                    <label>Phone Number</label>
+                    <input type="text" name="phone" placeholder="+601x xxx xxxx" class="payInput" maxlength="13">
+                    <br>
+                    <label>Address</label>
+                    <input type="text" name="address" placeholder="Your Address" class="payInput">
+                    <br>
+                    <h1 class="payTitle">Card Information</h1>
+                    <div class="cardIcons">
+                        <img src="./img/Contact/visa.png" width="40" alt="" class="cardIcon">
+                        <img src="./img/Contact/tng.png" alt="" width="40" class="cardIcon">
+                    </div>
+                    <input type="text" name="card_number" class="payInput" placeholder="Card Number" maxlength="16">
+                    <div class="cardInfo">
+                        <input type="text" name ="expiry_month" placeholder="mm" class="payInput sm" maxlength="2">
+                        <input type="text" name ="expiry_year" placeholder="yyyy" class="payInput sm" maxlength="4">
+                        <input type="text" name ="cvv" placeholder="cvv" class="payInput sm">
+                        </div>
+                    <button type="submit" class="payButton">Checkout!</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footerLeft">
+            <div class="footerMenu">
+                <h1 class="fMenuTitle">About Us</h1>
+                <ul class="fList">
+                    <li class="fListItem">www.doucehistory.com</li>
+            </div>
+            <div class="footerMenu">
+                <h1 class="fMenuTitle">Products</h1>
+                <ul class="fList">
+                    <li class="fListItem">MANGO</li>
+                    <li class="fListItem">TIRAMISU</li>
+                    <li class="fListItem">CHEESE</li>
+                    <li class="fListItem">MACHA</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footerRight">
+            <div class="footerRightMenu">
+                <h1 class="fMenuTitle">Subscribe to our channel</h1>
+                <div class="fMail">
+                    <input type="text" placeholder="your email" class="fInput">
+                    <button class="fButton">Join!</button>
+                </div>
+            </div>
+            <div class="footerRightMenu">
+                <h1 class="fMenuTitle">Follow Us</h1>
+                <div class="fIcons">
+                    <img src="./img/Contact/facebook.png"  alt="" class="fIcon">
+                    <img src="./img/Contact/tiktok.png" alt="" class="fIcon">
+                    <img src="./img/Contact/instagram.png" alt="" class="fIcon">
+
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="./app.js"></script>
+
+</body>
+</html>
