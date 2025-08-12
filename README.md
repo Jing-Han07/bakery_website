@@ -1,5 +1,5 @@
 # Bakery Website
-A simple website designed to receive and keep track of orders made on the site itself, built with HTML, CSS, and JavaScript.
+A simple website designed to receive and keep track of orders made on the site itself, built with HTML, CSS, Javascript, PHP and MySQL.
 
 ## Features  
 - Input and save payment information  
